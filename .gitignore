@@ -1,0 +1,32 @@
+# Windows system files
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+
+# macOS system files (念のため)
+.DS_Store
+
+# Logs
+*.log
+
+# Temporary files
+*.tmp
+*.bak
+*.swp
+
+# IDE / Editor settings
+.vscode/
+.idea/
+
+# Compiled binaries
+*.exe
+*.dll
+*.obj
+*.class
+
+# Python cache (もし使う場合)
+__pycache__/
+*.pyc
+
+# Node.js modules (もし使う場合)
+node_modules/
