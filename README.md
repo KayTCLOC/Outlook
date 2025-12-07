@@ -2,26 +2,20 @@
 
 ## Overview
 This repository contains the Outlook documentation project for TCLOC.  
-It is developed as part of Project 2: Individual Work, following the instructor’s template.  
-The documentation is written in the GitHub Wiki and includes concepts, tasks, and references for Outlook 2025.
+The documentation is written in the GitHub Wiki and follows the instructor’s template.
 
 ## Contents
-- **Wiki Documentation**  
-  - Concepts (2 topics)  
-  - Tasks (9 topics)  
-  - References (2 topics)  
+- **Wiki Documentation**: Concepts, Tasks, References  
 - **Images**: Screenshots and diagrams included in Wiki pages  
-- **Bonus**: Instructional video (link provided in Wiki)  
-- **Swagger API Demo Project**: Defines 2 endpoints for demonstration purposes
+- **Swagger API Demo Project**: 2 fake endpoints documented in Swagger
+
+## How to Navigate
+- Start at the [Wiki Home](https://github.com/KayTCLOC/Outlook/wiki) page  
+- Use the **Index page** for a numbered list of topics  
+- Topics are organized by type: Concepts, Tasks, References
 
 ## Audience
 End‑users, especially beginners learning Outlook for daily productivity.
-
-## Platform
-Windows 11, Outlook 2025
-
-## Author
-Kay
 
 ## License
 This project is licensed under the MIT License – see the [LICENSE](LICENSE) file for details.
