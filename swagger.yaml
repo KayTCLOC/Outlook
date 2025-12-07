@@ -1,0 +1,57 @@
+openapi: 3.0.0
+info:
+  title: Outlook TCLOC Demo API
+  description: Fake API endpoints for documentation practice
+  version: 1.0.0
+
+servers:
+  - url: https://example.com/api
+
+paths:
+  /emails:
+    get:
+      summary: Get all emails
+      description: Returns a list of emails (fake data for demo purposes)
+      responses:
+        '200':
+          description: A JSON array of emails
+          content:
+            application/json:
+              schema:
+                type: array
+                items:
+                  type: object
+                  properties:
+                    id:
+                      type: integer
+                      example: 1
+                    subject:
+                      type: string
+                      example: "Welcome to Outlook"
+                    sender:
+                      type: string
+                      example: "admin@example.com"
+
+  /emails:
+    post:
+      summary: Create a new email
+      description: Adds a new email (fake endpoint for demo purposes)
+      requestBody:
+        required: true
+        content:
+          application/json:
+            schema:
+              type: object
+              properties:
+                subject:
+                  type: string
+                  example: "Meeting Reminder"
+                body:
+                  type: string
+                  example: "Don't forget our meeting tomorrow."
+                recipient:
+                  type: string
+                  example: "user@example.com"
+      responses:
+        '201':
+          description: Email created successfully
